@@ -4,6 +4,11 @@
   margin-right: auto;
   width: 50%;
 }
+.example {
+width: 512;
+height: 384;
+}
+
 html {
    overflow: scroll;
    font-family: Verdana, Geneva, sans-serif;
@@ -194,6 +199,10 @@ a.subTitle:hover+ul.submenu, ul.submenu:hover {
       width: 20%;
       position: relative;
    }
+	.example {
+width: 256;
+height: 128;
+}
 
    ul.submenu {
       width: 200%;
