@@ -5,8 +5,8 @@
   width: 50%;
 }
 .example {
-width: 512;
-height: 384;
+width: 512px;
+height: 384px;
 }
 
 html {
@@ -199,9 +199,9 @@ a.subTitle:hover+ul.submenu, ul.submenu:hover {
       width: 20%;
       position: relative;
    }
-	.example {
-width: 256;
-height: 128;
+.example {
+width: 256px;
+height: 128px;
 }
 
    ul.submenu {
