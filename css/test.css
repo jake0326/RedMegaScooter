@@ -13,8 +13,8 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 140%;
-    max-height: 140%;
+    max-width: 125%;
+    max-height: 125%;
     margin: auto;
 }
 
