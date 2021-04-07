@@ -141,8 +141,9 @@ aside {
 /* Footer Styles */
 
 body > footer {
-   background-color: rgb(63, 72, 204);
+   background-color: #3f48cc;
    font-size: 20px;
+   font-color: #e9e7da;
    text-align: center;
    padding: 10px 0px;
 }
