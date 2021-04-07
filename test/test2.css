@@ -7,7 +7,7 @@
 */
 
 body {
-   background: rgb(121, 121, 121) ;  
+   background: #546792 ;  
    box-shadow: rgb(51, 51, 51) 5px 0px 15px,
                rgb(51, 51, 51) -5px 0px 15px;
    margin: 0px auto;
@@ -20,7 +20,7 @@ body {
 /*Font Styles*/
 
 h1 {
-  color: black;
+  color: #ff0000;
   text-align: center;
   font-size: 44px;
 }
