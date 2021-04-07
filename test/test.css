@@ -26,7 +26,7 @@ html {
 }
 footer > a {
 	text-decoration: none;
-	color: black;
+	color: #ff000;
 }
 footer > a:hover{
 	color: white;
@@ -43,6 +43,7 @@ h5 > a:visited{
   color:transparent;
 }
 h5 > a:link{
+
     font-size:20px;
   color:transparent;
 }
