@@ -7,7 +7,7 @@
 */
 
 body {
-   background: rgb(121, 121, 121) ;  
+   background: #546792 ;  
    box-shadow: rgb(51, 51, 51) 5px 0px 15px,
                rgb(51, 51, 51) -5px 0px 15px;
    margin: 0px auto;
@@ -20,7 +20,7 @@ body {
 /*Font Styles*/
 
 h1 {
-  color: black;
+  color: #e5df7a;
   text-align: center;
   font-size: 44px;
 }
@@ -36,7 +36,7 @@ p {
 }
 
 h6 {
-    color: white;
+    color: #e9e7da;
   text-align: center;
   list-style-type: none;
   font-size: 1.5em;
@@ -141,11 +141,13 @@ aside {
 /* Footer Styles */
 
 body > footer {
-   background-color: rgb(63, 72, 204);
+   background-color: #3f48cc;
    font-size: 20px;
+   color: #e5df7a;
    text-align: center;
    padding: 10px 0px;
 }
+
 
 /* Pulldown Menu Styles */
 ul.submenu {
@@ -204,23 +206,19 @@ a.subTitle:hover+ul.submenu, ul.submenu:hover {
       position: relative;
       width: 100%;
    }
-
    nav.horizontal::after {
       clear: both;
       content: "";
       display: table;
    }
-
    nav.horizontal a.subTItle {
       display: none;
    }
-
 article {
 float: left;
 margin-right: 5%;
 width: 55%;
 }
-
 aside{
 float: left;
 width: 40%;
