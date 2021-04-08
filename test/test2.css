@@ -20,7 +20,7 @@ body {
 /*Font Styles*/
 
 h1 {
-  color: #ff0000;
+  color: #e5df7a;
   text-align: center;
   font-size: 44px;
 }
@@ -143,7 +143,7 @@ aside {
 body > footer {
    background-color: #3f48cc;
    font-size: 20px;
-   color: #ff0000;
+   color: #e5df7a;
    text-align: center;
    padding: 10px 0px;
 }
