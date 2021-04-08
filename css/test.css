@@ -22,11 +22,14 @@ html {
    overflow: scroll;
    font-family: Verdana, Geneva, sans-serif;
    font-size: 12px;
-   background: rgb(132,123,245);
+   background: #20282b;
+}
+footer > a > em {
+	color: #e9e7da;
 }
 footer > a {
 	text-decoration: none;
-	color: black;
+	color: ##ff0000;
 }
 footer > a:hover{
 	color: white;
@@ -40,18 +43,19 @@ h5 > a:hover {
 }
 h5 > a:visited{
     font-size:20px;
-  color:transparent;
+  color:#ff0000;
 }
 h5 > a:link{
+
     font-size:20px;
-  color:transparent;
+  color:#ff0000;
 }
 h5 {
   font-size:20px;
   color:white;
 }
 body {
-   background: rgb(121, 121, 121) ;  
+   background: #546792 ;  
    box-shadow: rgb(51, 51, 51) 5px 0px 15px,
                rgb(51, 51, 51) -5px 0px 15px;
    margin-left: 100px;
@@ -65,7 +69,7 @@ body {
 /*Font Styles*/
 
 h1 {
-  color: black;
+  color: #ff0000;
   text-align: center;
 }
 h2{
@@ -255,23 +259,19 @@ height: 100%;
       position: relative;
       width: 100%;
    }
-
    nav.horizontal::after {
       clear: both;
       content: "";
       display: table;
    }
-
    nav.horizontal a.subTItle {
       display: none;
    }
-
 article {
 float: left;
 margin-right: 5%;
 width: 55%;
 }
-
 aside{
 float: left;
 width: 40%;
