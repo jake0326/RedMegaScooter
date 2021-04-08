@@ -24,6 +24,9 @@ html {
    font-size: 12px;
    background: #20282b;
 }
+footer > a > em {
+	color: #e9e7da;
+}
 footer > a {
 	text-decoration: none;
 	color: ##ff0000;
