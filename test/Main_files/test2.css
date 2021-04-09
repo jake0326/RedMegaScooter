@@ -201,6 +201,16 @@ em{
 	aside{
 		display:none;
 	} 
+	
+.header{
+   background-color: rgb(38, 76, 126);
+   margin: 0;
+   padding: 0;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   margin-top: 20px;
+	font-size:24px;
+}
 }
 /* Tablet */
 
