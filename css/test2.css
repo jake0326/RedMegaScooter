@@ -176,7 +176,7 @@ a.subTitle:hover+ul.submenu, ul.submenu:hover {
 p > a{
   text-decoration : none;
   color :'white'  !important;
-  border-bottom: 2px rgb(197, 181, 88) solid;
+  border-bottom: 2px #00acee  solid;
    border-radius: 20px;
    padding-left: 10px;
    padding-right: 10px;
