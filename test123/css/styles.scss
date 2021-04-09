@@ -1,0 +1,28 @@
+// Base Styles
+@import "hero";
+@import "testNav";
+@import "test";
+@import "print";
+@import "test2";
+@import "article";
+
+.container {
+  width: 1024px;
+  max-width: 100%;
+  margin: auto !important;
+}
+
+main {
+  padding: 3rem 0;
+  color: white;
+  font-family: 'Roboto', 'sans-serif';
+
+  @for $i from 1 through 6 {
+    h#{$i} {
+      color: #95a0af;
+      font-size: #{$i + 7 * (6 - $i)}px;
+      font-family: 'Montserrat', sans-serif;
+      font-variant: small-caps;
+    }
+  }
+}
