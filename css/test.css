@@ -29,7 +29,7 @@ footer > a > em {
 }
 footer > a {
 	text-decoration: none;
-	color: ##ff0000;
+	color: #ff0000;
 }
 footer > a:hover{
 	color: white;
@@ -183,7 +183,7 @@ aside {
 /* Footer Styles */
 
 body > footer {
-   background-color: rgb(63, 72, 204);
+   background-color: rgb(65, 72, 177);
    font-size: 20px;
    text-align: center;
    padding: 10px 0px;
@@ -277,6 +277,12 @@ float: left;
 width: 40%;
 }	
 } */
+
+article {
+   background-color: red;
+   text-align: left;
+   }
+
    ul.mainmenu > li {
       float: left;
       width: 20%;
