@@ -33,10 +33,10 @@ footer > a {
 }
 footer > a:hover{
 	color: white;
-}
-h5{
-      font-size:20px;
-  color:transparent;
+}  h5 {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
 }
 h5 > a:hover {
   color:black;  
