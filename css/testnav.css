@@ -10,7 +10,7 @@
   list-style: none;
   line-height: 1;
   display: block;
-position: fixed;
+position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -30,6 +30,7 @@ position: fixed;
 #cssmenu {
   font-family: Montserrat, sans-serif;
   background: #333333;
+  position: fixed;
 }
 #cssmenu > ul > li {
   float: left;
