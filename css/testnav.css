@@ -30,7 +30,6 @@ position: relative;
 #cssmenu {
   font-family: Montserrat, sans-serif;
   background: #333333;
-  position: fixed;
 }
 #cssmenu > ul > li {
   float: left;
