@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+  color: #e31232;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  background: -webkit-linear-gradient(
+    #f5ba2c,
+    #f5ba2c,
+    #e31232,
+    #e31232,
+    #e31232);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#canvas {
+  background-color: black;
+  border-bottom: 10px solid #2D2D2D;
+  border-right: 10px solid #2D2D2D;
+  border-top: 10px solid #1B1C1B;
+  border-left: 10px solid #1B1C1B;
+}
+
+#right-of-canvas {
+  align-self: flex-start;
+}
+
+#start-btn {
+  width: 100px;
+  height: 150px;
+  margin: 150px 30px 0 0;
+  align-self: flex-start;
+}
+
+#start-btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#instructions {
+  align-self: flex-start;
+  margin: 180px 0 0 20px;
+}
+
+#how-to-play {
+  background: -webkit-linear-gradient(
+    #f5ba2c,
+    #e31232,
+    #e31232,
+    #e31232
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#instructions {
+  text-align: center;
+  width: 170px;
+}
+
+#instructions h2 {
+  font-size: 15px;
+}
+
+#instructions p {
+  font-size: 10px;
+}
+
+#personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 36px;
+}
+
+#personal-info span {
+  margin-top: 10px;
+}
+
+#linkedin-icon {
+  padding-right: 11px;
+  width: 40px;
+  height: 40px;
+}
+
+#github-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#portfolio-icon {
+  width: 63px;
+  height: 33px;
+}
