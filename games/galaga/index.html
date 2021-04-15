@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Galagus</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="shortcut icon" href="./app/assets/images/galagus_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./app/galagus.css" >
+    <script type="text/javascript" src="./app/assets/javascripts/bundle.js" ></script>
+  </head>
+  <body>
+    <img id="laser" src="./app/assets/images/laser_bullet.png" hidden >
+    <img id="enemy-bullet" src="./app/assets/images/enemy_bullet2.png" hidden >
+    <img id="game-over" src="./app/assets/images/game_over.png" hidden >
+    <img id="game-ready" src="./app/assets/images/galaga_ready.png" hidden >
+    <img id="gal-sprites" src="./app/assets/images/galaga_sprites.png" hidden >
+
+    <img id="start-btn" src="./app/assets/images/coin_slot.png" />
+    <div>
+      <h1>Galagus</h1>
+      <canvas id="canvas" width="500" height="600" ></canvas>
+      <footer>Created by Matthew Schmuckler</footer>
+    </div>
+    <div id="right-of-canvas" >
+      <div id="instructions" >
+        <h2 id="how-to-play" >HOW TO PLAY</h2>
+        <p>Left/Right: Move</p>
+        <p>Spacebar: Shoot</p>
+      </div>
+      <div id="personal-info" >
+        <span>
+          <a href="https://www.linkedin.com/in/matthew-schmuckler-32147159/">
+            <img src="./app/assets/images/logo_red_linkedin.png" id="linkedin-icon" />
+          </a>
+        </span>
+        <span>
+          <a href="https://github.com/mschmuckler/Galagus">
+            <img src="./app/assets/images/logo_red_github.png" id="github-icon" />
+          </a>
+        </span>
+        <span>
+          <a href="http://matthewschmuckler.com/">
+            <img src="./app/assets/images/logo_red_portfolio.png" id="portfolio-icon" />
+          </a>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
