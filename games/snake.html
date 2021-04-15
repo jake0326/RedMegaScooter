@@ -165,5 +165,42 @@ document.addEventListener('keydown', function(e) {
 // start the game
 requestAnimationFrame(loop);
 </script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .link {
+            font-size: 13px;
+            text-align: left;
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+        }
+
+        .link a {
+            text-decoration: none;
+            background-color: rgb(132,123,245);
+            color: #222;
+            padding: 5px;
+        }
+
+        .link a:hover {
+            text-decoration: none;
+            color: #000;
+            background-color: #FFF;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<pre id="elm"></pre>
+
+<aside class="link">
+  <a href="https://github.com/straker" target="_blank">Here's the creator's page that made this game</a>
+  <a href="https://redmegascooter.netlify.app" target="_blank">Click here if you want to back to RedMegaScooter</a>
+</aside>
 </body>
 </html>
